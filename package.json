@@ -1,0 +1,21 @@
+{
+  "name": "zoom",
+  "version": "1.0.0",
+  "description": "```\r Zoom\r ├─ client\r │  └─ client.js\r ├─ README.md\r ├─ server\r │  └─ server.js\r └─ view\r    └─ room.ejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7",
+    "peer": "^1.0.2",
+    "peerjs": "^1.5.4",
+    "socket.io": "^4.8.0",
+    "uuid": "^10.0.0"
+  }
+}
